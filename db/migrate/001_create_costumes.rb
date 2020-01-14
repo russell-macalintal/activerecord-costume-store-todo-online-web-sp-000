@@ -14,7 +14,7 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
       t.string :price
       t.string :image_url
       t.string :size
-      t.timestamps
+      t.timestamps  #automatically creates created_at and updated_at attributes
     end
   end
 end
