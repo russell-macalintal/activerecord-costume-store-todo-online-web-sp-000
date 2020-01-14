@@ -10,4 +10,5 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
       t.string :opening_time
       t.string :closing_time
     end
+  end
 end
